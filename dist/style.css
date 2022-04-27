@@ -2,9 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-image: url(/pictures/stars_starry_sky.jpg);
+  background-image: url(pictures/starsstarrysky.jpg);
   background-repeat: repeat;
-  font-family: 'Roboto Serif', serif;
+  font-family: Podkova;
 }
 h1 {
   display: flex;
@@ -115,7 +115,7 @@ hr {
   height: 900px;
   background-position: center;
   background-size: cover;
-  background-image: url(/pictures/earth_moon.jpg);
+  background-image: url(pictures/earthmoon.jpg);
 }
 .first-block .container {
   color: white;
