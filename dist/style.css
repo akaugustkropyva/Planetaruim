@@ -648,7 +648,7 @@ hr {
 .footer .last-line {
   margin-bottom: 50px;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1399.5px) {
   .header .container .menu {
     width: 650px;
   }
@@ -706,13 +706,16 @@ hr {
     height: 1300px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.5px) {
+  .container {
+    width: 900px;
+  }
   h1 {
     font-size: 36px;
   }
   .logo-header img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
   .logo-header .name {
     width: 125px;
@@ -864,7 +867,7 @@ hr {
     margin-top: 80px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991.5px) {
   h1 {
     margin-top: 75px;
   }
@@ -1009,7 +1012,7 @@ hr {
     margin-top: 6px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.5px) {
   h1 {
     font-size: 28px;
     height: 60px;
@@ -1509,7 +1512,7 @@ hr {
     margin-top: 13px;
   }
 }
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 464.5px) {
   .container {
     width: 320px;
   }
@@ -1598,7 +1601,7 @@ hr {
     width: 110%;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 349.5px) {
   .container {
     width: 280px;
   }
