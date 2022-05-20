@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-image: url(.../pictures/starsstarrysky.jpg);
+  background-image: url(../pictures/starsstarrysky.jpg);
   background-repeat: repeat;
   font-family: 'Podkova', serif;
 }
@@ -115,7 +115,7 @@ hr {
   height: 900px;
   background-position: center;
   background-size: cover;
-  background-image: url(.../pictures/earthmoon.jpg);
+  background-image: url(../pictures/earthmoon.jpg);
 }
 .first-block .container {
   color: white;
