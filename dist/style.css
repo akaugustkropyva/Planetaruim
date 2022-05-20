@@ -4,7 +4,7 @@ body {
   margin: 0;
   background-image: url(../pictures/starsstarrysky.jpg);
   background-repeat: repeat;
-  font-family: Podkova, serif;
+  font-family: Podkova;
 }
 h1 {
   display: flex;
@@ -135,7 +135,7 @@ hr {
 }
 .first-block .container .main-button {
   position: absolute;
-  font-family: Podkova, serif;
+  font-family: Podkova;
   background-color: #FFD561;
   color: #311847;
   text-decoration: none;
@@ -541,7 +541,7 @@ hr {
   background-color: #9E7B9B;
   color: white;
   font-size: 32px;
-  font-family: Podkova, serif;
+  font-family: Podkova;
   text-align: center;
   border-radius: 15px;
 }
@@ -1708,4 +1708,3 @@ hr {
     width: 130%;
   }
 }
-/*# sourceMappingURL=style.css.map */
