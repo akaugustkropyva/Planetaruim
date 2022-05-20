@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-image: url(../pictures/starsstarrysky.jpg);
+  background-image: url(/pictures/starsstarrysky.jpg);
   background-repeat: repeat;
   font-family: 'Podkova', serif;
 }
@@ -115,7 +115,7 @@ hr {
   height: 900px;
   background-position: center;
   background-size: cover;
-  background-image: url(../pictures/earthmoon.jpg);
+  background-image: url(/pictures/earthmoon.jpg);
 }
 .first-block .container {
   color: white;
@@ -135,7 +135,7 @@ hr {
 }
 .first-block .container .main-button {
   position: absolute;
-  font-family: Podkova;
+  font-family: Podkova, serif;
   background-color: #FFD561;
   color: #311847;
   text-decoration: none;
@@ -251,12 +251,12 @@ hr {
   margin-top: 40px;
 }
 .poster .name {
+  display: flex;
   justify-content: center;
   font-size: 34px;
   text-transform: uppercase;
   height: 180px;
   margin: 0;
-  display: flex;
   align-items: center;
   text-align: center;
   width: 80%;
@@ -446,11 +446,13 @@ hr {
   justify-content: center;
   align-items: center;
 }
-.additional-info-block {
+.additional-info-block,
+.about-block {
   background: transparent;
   height: 1100px;
 }
-.additional-info-block .block {
+.additional-info-block .block,
+.about-block .block {
   display: flex;
   justify-content: center;
   background: rgba(158, 123, 155, 0.6);
@@ -459,13 +461,15 @@ hr {
   border-radius: 15px;
   margin-top: 85px;
 }
-.additional-info-block .block .spacing {
+.additional-info-block .block .spacing,
+.about-block .block .spacing {
   height: 100%;
   width: 80%;
   display: flex;
   justify-content: space-between;
 }
-.additional-info-block .block .spacing p {
+.additional-info-block .block .spacing p,
+.about-block .block .spacing p {
   display: flex;
   align-items: center;
   color: white;
@@ -474,12 +478,14 @@ hr {
   width: 670px;
   margin: 0;
 }
-.additional-info-block .block .spacing img {
+.additional-info-block .block .spacing img,
+.about-block .block .spacing img {
   object-fit: cover;
   width: 300px;
   height: 100%;
 }
-.additional-info-block a {
+.additional-info-block a,
+.about-block a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -492,7 +498,8 @@ hr {
   border-radius: 50px;
   margin-top: 50px;
 }
-.additional-info-block a:hover {
+.additional-info-block a:hover,
+.about-block a:hover {
   border-bottom: 10px solid rgba(158, 123, 155, 0.75);
   text-decoration: underline;
   transition: 0.3s all;
@@ -541,64 +548,13 @@ hr {
   background-color: #9E7B9B;
   color: white;
   font-size: 32px;
-  font-family: Podkova;
+  font-family: Podkova, serif;
   text-align: center;
   border-radius: 15px;
 }
 .choice-maker .container .row .col-lg-3 .choicebox option {
   color: #311847;
   background-color: white;
-}
-.about-block {
-  background: transparent;
-  height: 1100px;
-}
-.about-block .block {
-  display: flex;
-  justify-content: center;
-  background: rgba(158, 123, 155, 0.6);
-  height: 600px;
-  width: 100%;
-  border-radius: 15px;
-  margin-top: 85px;
-}
-.about-block .block .spacing {
-  height: 100%;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
-.about-block .block .spacing p {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 32px;
-  height: 100%;
-  width: 670px;
-  margin: 0;
-}
-.about-block .block .spacing img {
-  object-fit: cover;
-  width: 300px;
-  height: 100%;
-}
-.about-block a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 370px;
-  height: 85px;
-  background-color: #FFD561;
-  color: #311847;
-  text-decoration: none;
-  font-size: 32px;
-  border-radius: 50px;
-  margin-top: 50px;
-}
-.about-block a:hover {
-  border-bottom: 10px solid rgba(158, 123, 155, 0.75);
-  text-decoration: underline;
-  transition: 0.3s all;
 }
 .footer .container {
   background: transparent;
@@ -1708,3 +1664,4 @@ hr {
     width: 130%;
   }
 }
+/*# sourceMappingURL=style.css.map */
