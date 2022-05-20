@@ -11,7 +11,7 @@ body {
     margin: 0;
     background-image: url(../pictures/starsstarrysky.jpg);
     background-repeat: repeat;
-    font-family: 'Podkova', serif;
+    font-family: 'Roboto Serif', serif;
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
     height: 75px;
     width: 600px;
     margin-top: 120px;
+    font-family: 'Roboto Serif', serif;
     font-weight: normal;
 }
 
@@ -174,7 +175,7 @@ hr {
 
         .main-button {
             position: absolute;
-            font-family: Podkova, serif;
+            font-family: Podkova;
             background-color: @my-yellow;
             color: @dark-text;
             text-decoration: none;
@@ -313,6 +314,7 @@ hr {
         text-transform: uppercase;
         height: 180px;
         margin: 0;
+        display: flex;
         align-items: center;
         text-align: center;
         width: 80%;
@@ -536,7 +538,7 @@ hr {
     align-items: center;
 }
 
-.additional-info-block, .about-block  {
+.additional-info-block {
     background: transparent;
     height: 1100px;
 
@@ -603,9 +605,9 @@ hr {
             .spacing {
                 width: 90%;
                 p {
-                   width: 100%; 
+                    width: 100%;
                 }
-                
+
             }
         }
     }
@@ -651,7 +653,7 @@ hr {
                     background-color: @my-purple;
                     color: white;
                     font-size: 32px;
-                    font-family: Podkova, serif;
+                    font-family: Podkova;
                     text-align: center;
                     border-radius: 15px;
 
@@ -663,6 +665,65 @@ hr {
             }
         }
 
+    }
+}
+
+.about-block {
+    background: transparent;
+    height: 1100px;
+
+    .block {
+        display: flex;
+        justify-content: center;
+        background: @big-opacity-purple;
+        height: 600px;
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 85px;
+
+        .spacing {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                display: flex;
+                align-items: center;
+                color: white;
+                font-size: 32px;
+                height: 100%;
+                width: 670px;
+                margin: 0;
+            }
+
+            img {
+                object-fit: cover;
+                width: 300px;
+                height: 100%;
+            }
+        }
+
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 85px;
+        background-color: @my-yellow;
+        color: @dark-text;
+        text-decoration: none;
+        font-size: 32px;
+        border-radius: 50px;
+        margin-top: 50px;
+    }
+
+    a:hover {
+        border-bottom: 10px solid @small-opacity-purple;
+        text-decoration: underline;
+        transition: 0.3s all;
     }
 }
 
@@ -781,7 +842,7 @@ hr {
         .container {
             .row {
                 .col-lg-6 {
-    
+
                     .button {
                         margin-left: 50px;
                         margin-top: 100px;
@@ -955,7 +1016,7 @@ hr {
 
     .poster-main-info {
         height: 850px;
-    
+
         .container {
             .row {
                 .col-lg-6 {
@@ -963,30 +1024,30 @@ hr {
                     .block {
                         height: 600px;
                     }
-    
+
                     .full-poster-info {
-    
+
                         .written-info {
-    
+
                             img {
                                 width: 60px;
                                 height: 60px;
                             }
-    
+
                             p {
                                 font-size: 24px;
                             }
-    
+
                             .price {
                                 height: 60px;
                                 font-size: 26px;
                             }
                         }
                     }
-    
+
                     .button {
                         margin-top: 70px;
-    
+
                         a {
                             width: 80%;
                             height: 80px;
@@ -1014,7 +1075,7 @@ hr {
 
     .posters-block-container {
         height: 5650px;
-    
+
         .more-button {
             border-radius: 15px;
         }
@@ -1147,39 +1208,39 @@ hr {
 
     .poster-main-info {
         height: 1150px;
-    
+
         .container {
-    
+
             .row {
                 margin-top: 60px;
-    
+
                 .col-lg-6 {
 
                     .block {
                         height: 500px;
                     }
-    
+
                     .full-poster-info {
                         align-items: center;
                         margin-top: 50px;
-    
+
                         .written-info {
                             width: 70%;
-    
+
                             img {
                                 width: 60px;
                                 height: 60px;
                             }
-    
+
                             p {
                                 font-size: 24px;
                             }
                         }
                     }
-    
+
                     .button {
                         margin-top: 30px;
-    
+
                         a {
                             width: 50%;
                             height: 80px;
@@ -1192,9 +1253,9 @@ hr {
     }
 
     .posters-block-container {
-    
+
         .more-button {
-    
+
             .more {
                 font-size: 30px;
             }
@@ -1449,37 +1510,37 @@ hr {
 
     .poster-main-info {
         height: 1100px;
-    
+
         .container {
-    
+
             h1 {
                 height: 100px;
             }
-    
+
             .row {
                 margin-top: 40px;
-    
+
                 .col-lg-6 {
-    
+
                     .full-poster-info {
                         width: 100%;
                         margin-top: 40px;
                         margin-left: 0;
-    
+
                         .written-info {
                             width: 100%;
-    
+
                             p {
                                 margin-left: 20px;
                             }
                         }
                     }
-    
+
                     .button {
                         margin-top: 25px;
                         margin-left: 0;
                         width: 100%;
-    
+
                         a {
                             width: 60%;
                             height: 70px;
@@ -1497,16 +1558,16 @@ hr {
 
     .posters-block-container {
         height: 4720px;
-    
+
         .more-button {
             margin-top: 40px;
             width: 200px;
             height: 60px;
-    
+
             .more {
                 font-size: 26px;
             }
-    
+
             img {
                 width: 25px;
                 height: 25px;
@@ -1531,7 +1592,7 @@ hr {
 
     .additional-info-block-info-page {
         height: 1050px;
-    
+
         .container {
 
             .block {
@@ -1800,39 +1861,39 @@ hr {
             text-align: center;
         }
     }
-    
+
     .poster-main-info {
         height: 750px;
-    
+
         .container {
-    
+
             h1 {
                 height: 60px;
             }
-    
+
             .row {
-    
+
                 .col-lg-6 {
 
                     .block {
                         height: 300px;
                     }
-    
+
                     .full-poster-info {
                         justify-content: center;
-    
+
                         .written-info {
                             width: 80%;
-    
+
                             img {
                                 width: 50px;
                                 height: 50px;
                             }
-    
+
                             p {
                                 font-size: 17px;
                             }
-    
+
                             .price {
                                 width: 190px;
                                 height: 50px;
@@ -1840,9 +1901,9 @@ hr {
                             }
                         }
                     }
-    
+
                     .button {
-    
+
                         a {
                             width: 210px;
                             height: 50px;
@@ -1867,15 +1928,15 @@ hr {
 
     .posters-block-container {
         height: 3300px;
-    
+
         .more-button {
             width: 130px;
             height: 40px;
-    
+
             .more {
                 font-size: 17px;
             }
-    
+
             img {
                 width: 15px;
                 height: 15px;
@@ -1913,7 +1974,7 @@ hr {
 
     .additional-info-block-info-page {
         height: 810px;
-    
+
         .container {
 
             .block {
@@ -2049,7 +2110,7 @@ hr {
                 display: unset;
             }
         }
-        
+
     }
 
     .circles-block {
@@ -2097,7 +2158,7 @@ hr {
             .row {
                 .col-lg-6 {
                     .full-poster-info {
-    
+
                         .written-info {
                             width: 100%;
                         }
@@ -2128,11 +2189,11 @@ hr {
 
     .additional-info-block-info-page {
         height: 920px;
-    
+
         .container {
             .block {
                 height: 670px;
-    
+
                 .spacing {
                     width: 85%;
                 }
@@ -2289,7 +2350,7 @@ hr {
 
     .posters-block-container {
         height: 3270px;
-    
+
         .more-button {
             margin-top: 30px;
         }
@@ -2305,12 +2366,12 @@ hr {
 
     .additional-info-block-info-page {
         height: 1000px;
-    
+
         .container {
             .block {
                 margin-top: 40px;
                 height: 750px;
-    
+
                 .spacing {
                     width: 85%;
                 }
