@@ -11,7 +11,7 @@ body {
     margin: 0;
     background-image: url(../pictures/starsstarrysky.jpg);
     background-repeat: repeat;
-    font-family: Podkova;
+    font-family: Podkova, serif;
 }
 
 h1 {
@@ -174,7 +174,7 @@ hr {
 
         .main-button {
             position: absolute;
-            font-family: Podkova;
+            font-family: Podkova, serif;
             background-color: @my-yellow;
             color: @dark-text;
             text-decoration: none;
@@ -313,7 +313,6 @@ hr {
         text-transform: uppercase;
         height: 180px;
         margin: 0;
-        display: flex;
         align-items: center;
         text-align: center;
         width: 80%;
@@ -537,7 +536,7 @@ hr {
     align-items: center;
 }
 
-.additional-info-block {
+.additional-info-block, .about-block {
     background: transparent;
     height: 1100px;
 
@@ -652,7 +651,7 @@ hr {
                     background-color: @my-purple;
                     color: white;
                     font-size: 32px;
-                    font-family: Podkova;
+                    font-family: Podkova, serif;
                     text-align: center;
                     border-radius: 15px;
 
@@ -664,65 +663,6 @@ hr {
             }
         }
 
-    }
-}
-
-.about-block {
-    background: transparent;
-    height: 1100px;
-
-    .block {
-        display: flex;
-        justify-content: center;
-        background: @big-opacity-purple;
-        height: 600px;
-        width: 100%;
-        border-radius: 15px;
-        margin-top: 85px;
-
-        .spacing {
-            height: 100%;
-            width: 80%;
-            display: flex;
-            justify-content: space-between;
-
-            p {
-                display: flex;
-                align-items: center;
-                color: white;
-                font-size: 32px;
-                height: 100%;
-                width: 670px;
-                margin: 0;
-            }
-
-            img {
-                object-fit: cover;
-                width: 300px;
-                height: 100%;
-            }
-        }
-
-    }
-
-    a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 370px;
-        height: 85px;
-        background-color: @my-yellow;
-        color: @dark-text;
-        text-decoration: none;
-        font-size: 32px;
-        border-radius: 50px;
-        margin-top: 50px;
-    }
-
-    a:hover {
-        border-bottom: 10px solid @small-opacity-purple;
-        text-decoration: underline;
-        transition: 0.3s all;
     }
 }
 
